@@ -1,4 +1,4 @@
-# Simple python socket_ssl
+# Simple python socket SSL
 
 ### Generate the certificates for the server
 `openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt -subj "/CN=<YOUR DOMAIN>"`
